@@ -1,0 +1,186 @@
+<!DOCTYPE html><html><head>
+      <title>report</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:///c:\Users\61583\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.8.18\crossnote\dependencies\katex\katex.min.css">
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<h2 id="center-图像还原实验报告-center"><center> 图像还原实验报告 </center> </h2>
+<h3 id="一-实验目的">一、实验目的 </h3>
+<ul>
+<li>了解如何为图像添加噪声</li>
+<li>了解常见的图像恢复算法，如均值滤波、中值滤波、双边滤波、非局部均值滤波等</li>
+<li>学习如何采用这些算法进行图像去噪</li>
+<li>了解图像复原的评价指标，如恢复图像与原始图像二范数之和、SSIM相似度、cosine相似度等</li>
+</ul>
+<h3 id="二-实验内容">二、实验内容 </h3>
+<ul>
+<li>生成要求比例的噪声图像</li>
+<li>采用1种去噪算法对噪声图像进行去噪</li>
+<li>采取恢复图像与原始图像二范数之和、SSIM相似度、cosine相似度评价去噪效果</li>
+</ul>
+<h3 id="三-实现过程与具体代码">三、实现过程与具体代码 </h3>
+<p><strong>为图片添加噪声：</strong><br>
+实验要求受损图像是由原始图像添加不同的噪声遮罩得到的，即(<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>⋅</mo></mrow><annotation encoding="application/x-tex">\cdot</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4445em;"></span><span class="mord">⋅</span></span></span></span> 代表逐元素相乘)：<br>
+<span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mtext>受损图像</mtext><mo>=</mo><mtext>原始图像</mtext><mo>⋅</mo><mtext>噪声遮罩</mtext></mrow><annotation encoding="application/x-tex">\text{受损图像} = \text{原始图像} \cdot \text{噪声遮罩}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord text"><span class="mord cjk_fallback">受损图像</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord text"><span class="mord cjk_fallback">原始图像</span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord text"><span class="mord cjk_fallback">噪声遮罩</span></span></span></span></span></span></p>
+<p>其中，噪声遮罩仅包含{0，1}值，三个通道的噪声比率为0.8,0.4,0.6，即噪声遮罩每个通道每行 80%,40%,60% 的像素值为0，其他为1</p>
+<p>按照要求，我们根据比例在每个通道随机生成0元素，噪声遮罩的大小需与原图的长宽保持一致，以便后续计算，代码如下：</p>
+<pre data-role="codeBlock" data-info="python" class="language-python python"><code>height<span class="token punctuation">,</span> width<span class="token punctuation">,</span> channels <span class="token operator">=</span> img<span class="token punctuation">.</span>shape
+noise_masks <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+<span class="token keyword keyword-for">for</span> ratio <span class="token keyword keyword-in">in</span> noise_ratio<span class="token punctuation">:</span>
+    mask <span class="token operator">=</span> np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>choice<span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">,</span> size<span class="token operator">=</span><span class="token punctuation">(</span>height<span class="token punctuation">,</span> width<span class="token punctuation">)</span><span class="token punctuation">,</span> p<span class="token operator">=</span><span class="token punctuation">[</span>ratio<span class="token punctuation">,</span> <span class="token number">1</span> <span class="token operator">-</span> ratio<span class="token punctuation">]</span><span class="token punctuation">)</span>
+    noise_masks<span class="token punctuation">.</span>append<span class="token punctuation">(</span>mask<span class="token punctuation">)</span>
+</code></pre><p>再将原图与噪声遮罩逐元素相乘，得到受损图像：</p>
+<pre data-role="codeBlock" data-info="python" class="language-python python"><code>noise_img <span class="token operator">=</span> np<span class="token punctuation">.</span>stack<span class="token punctuation">(</span><span class="token punctuation">[</span>img<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token punctuation">,</span> <span class="token punctuation">:</span><span class="token punctuation">,</span> i<span class="token punctuation">]</span> <span class="token operator">*</span> noise_masks<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token keyword keyword-for">for</span> i <span class="token keyword keyword-in">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>channels<span class="token punctuation">)</span><span class="token punctuation">]</span><span class="token punctuation">,</span> axis<span class="token operator">=</span><span class="token number">2</span><span class="token punctuation">)</span>
+</code></pre><p><strong>去噪算法：</strong><br>
+在进行去噪的过程中，我最初选择了均值滤波算法和中值滤波算法，但是恢复精度很低（后发现是没有排除邻域中的噪声像素点导致的），然后尝试了线性回归算法，这里给出三种算法的实现过程，效果对比见实验结果与分析：</p>
+<ul>
+<li>
+<p>均值滤波：对图像进行均值滤波，即对于每一个噪声像素，使用像素周围邻域的像素的平均值来代替该像素的值（注意应排除邻域中的噪声像素点，否则将影响恢复效果）<br>
+代码如下：</p>
+<pre data-role="codeBlock" data-info="python" class="language-python python"><code>res_img <span class="token operator">=</span> np<span class="token punctuation">.</span>copy<span class="token punctuation">(</span>noise_img<span class="token punctuation">)</span>
+noise_mask <span class="token operator">=</span> get_noise_mask<span class="token punctuation">(</span>noise_img<span class="token punctuation">)</span>  <span class="token comment"># 获取噪声掩码</span>
+
+height<span class="token punctuation">,</span> width<span class="token punctuation">,</span> channels <span class="token operator">=</span> noise_img<span class="token punctuation">.</span>shape
+half_size <span class="token operator">=</span> size <span class="token operator">//</span> <span class="token number">2</span>
+
+<span class="token keyword keyword-for">for</span> c <span class="token keyword keyword-in">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>channels<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword keyword-for">for</span> i <span class="token keyword keyword-in">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>height<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword keyword-for">for</span> j <span class="token keyword keyword-in">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>width<span class="token punctuation">)</span><span class="token punctuation">:</span>
+            <span class="token keyword keyword-if">if</span> noise_mask<span class="token punctuation">[</span>i<span class="token punctuation">,</span> j<span class="token punctuation">,</span> c<span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">:</span>  <span class="token comment"># 如果是噪声点</span>
+                <span class="token comment"># 获取邻域窗口</span>
+                top <span class="token operator">=</span> <span class="token builtin">max</span><span class="token punctuation">(</span>i <span class="token operator">-</span> half_size<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span>
+                bottom <span class="token operator">=</span> <span class="token builtin">min</span><span class="token punctuation">(</span>i <span class="token operator">+</span> half_size <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">,</span> height<span class="token punctuation">)</span>
+                left <span class="token operator">=</span> <span class="token builtin">max</span><span class="token punctuation">(</span>j <span class="token operator">-</span> half_size<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span>
+                right <span class="token operator">=</span> <span class="token builtin">min</span><span class="token punctuation">(</span>j <span class="token operator">+</span> half_size <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">,</span> width<span class="token punctuation">)</span>
+                
+                <span class="token comment"># 提取窗口内的非噪声像素</span>
+                region <span class="token operator">=</span> noise_img<span class="token punctuation">[</span>top<span class="token punctuation">:</span>bottom<span class="token punctuation">,</span> left<span class="token punctuation">:</span>right<span class="token punctuation">,</span> c<span class="token punctuation">]</span>
+                mask_region <span class="token operator">=</span> noise_mask<span class="token punctuation">[</span>top<span class="token punctuation">:</span>bottom<span class="token punctuation">,</span> left<span class="token punctuation">:</span>right<span class="token punctuation">,</span> c<span class="token punctuation">]</span>
+                valid_pixels <span class="token operator">=</span> region<span class="token punctuation">[</span>mask_region <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">]</span>
+                
+                <span class="token comment"># 计算均值并替换噪声像素</span>
+                <span class="token keyword keyword-if">if</span> valid_pixels<span class="token punctuation">.</span>size <span class="token operator">&gt;</span> <span class="token number">0</span><span class="token punctuation">:</span>
+                    res_img<span class="token punctuation">[</span>i<span class="token punctuation">,</span> j<span class="token punctuation">,</span> c<span class="token punctuation">]</span> <span class="token operator">=</span> np<span class="token punctuation">.</span>mean<span class="token punctuation">(</span>valid_pixels<span class="token punctuation">)</span>
+                <span class="token keyword keyword-else">else</span><span class="token punctuation">:</span>
+                    res_img<span class="token punctuation">[</span>i<span class="token punctuation">,</span> j<span class="token punctuation">,</span> c<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">0.5</span>  <span class="token comment"># 若无有效像素，设为 0.5（灰色）</span>
+<span class="token keyword keyword-return">return</span> res_img
+</code></pre></li>
+<li>
+<p>中值滤波：对图像进行中值滤波，即对于每一个噪声像素，使用像素周围邻域的像素的中值来代替该像素的值（注意应排除邻域中的噪声像素点，否则将影响恢复效果）<br>
+代码只需要将均值滤波中的均值计算改为中值计算即可：</p>
+<pre data-role="codeBlock" data-info="python" class="language-python python"><code>res_img<span class="token punctuation">[</span>i<span class="token punctuation">,</span> j<span class="token punctuation">,</span> c<span class="token punctuation">]</span> <span class="token operator">=</span> np<span class="token punctuation">.</span>median<span class="token punctuation">(</span>valid_pixels<span class="token punctuation">)</span>
+</code></pre></li>
+<li>
+<p>线性回归：对于每个噪声像素，使用其周围邻域的像素的坐标值作为自变量，像素点的像素值作为因变量进行线性回归分析，并采用线性回归结果来预测该像素的值（注意应排除邻域中的噪声像素点，否则将影响恢复效果，同时应注意需将线性回归的结果归一到[0,1]内）<br>
+代码如下：</p>
+<pre data-role="codeBlock" data-info="python" class="language-python python"><code>res_img <span class="token operator">=</span> np<span class="token punctuation">.</span>copy<span class="token punctuation">(</span>noise_img<span class="token punctuation">)</span>
+
+<span class="token comment"># 获取噪声图像</span>
+noise_mask <span class="token operator">=</span> get_noise_mask<span class="token punctuation">(</span>noise_img<span class="token punctuation">)</span>
+
+<span class="token comment"># -------------实现图像恢复代码答题区域----------------------------</span>
+
+height<span class="token punctuation">,</span> width<span class="token punctuation">,</span> channels <span class="token operator">=</span> noise_img<span class="token punctuation">.</span>shape
+
+<span class="token comment"># 初始化线性回归模型</span>
+model <span class="token operator">=</span> LinearRegression<span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token comment">#model = Ridge(alpha=0.1)</span>
+<span class="token comment"># 对每个通道进行处理</span>
+<span class="token keyword keyword-for">for</span> c <span class="token keyword keyword-in">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>channels<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token comment"># 遍历每个像素</span>
+    <span class="token keyword keyword-for">for</span> i <span class="token keyword keyword-in">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>height<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword keyword-for">for</span> j <span class="token keyword keyword-in">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>width<span class="token punctuation">)</span><span class="token punctuation">:</span>
+            <span class="token keyword keyword-if">if</span> noise_mask<span class="token punctuation">[</span>i<span class="token punctuation">,</span> j<span class="token punctuation">,</span> c<span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">:</span>  <span class="token comment"># 如果是噪声点（掩码为 0）</span>
+                <span class="token comment"># 获取周围区域的边界</span>
+                half_size <span class="token operator">=</span> size <span class="token operator">//</span> <span class="token number">2</span>
+                top <span class="token operator">=</span> <span class="token builtin">max</span><span class="token punctuation">(</span>i <span class="token operator">-</span> half_size<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span>
+                bottom <span class="token operator">=</span> <span class="token builtin">min</span><span class="token punctuation">(</span>i <span class="token operator">+</span> half_size <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">,</span> height<span class="token punctuation">)</span>
+                left <span class="token operator">=</span> <span class="token builtin">max</span><span class="token punctuation">(</span>j <span class="token operator">-</span> half_size<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span>
+                right <span class="token operator">=</span> <span class="token builtin">min</span><span class="token punctuation">(</span>j <span class="token operator">+</span> half_size <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">,</span> width<span class="token punctuation">)</span>
+
+                <span class="token comment"># 提取周围区域的坐标和像素值</span>
+                region <span class="token operator">=</span> noise_img<span class="token punctuation">[</span>top<span class="token punctuation">:</span>bottom<span class="token punctuation">,</span> left<span class="token punctuation">:</span>right<span class="token punctuation">,</span> c<span class="token punctuation">]</span>
+                coords <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+                values <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+
+                <span class="token keyword keyword-for">for</span> x <span class="token keyword keyword-in">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>region<span class="token punctuation">.</span>shape<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+                    <span class="token keyword keyword-for">for</span> y <span class="token keyword keyword-in">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>region<span class="token punctuation">.</span>shape<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+                        <span class="token keyword keyword-if">if</span> region<span class="token punctuation">[</span>x<span class="token punctuation">,</span>y<span class="token punctuation">]</span> <span class="token operator">!=</span> <span class="token number">0</span><span class="token punctuation">:</span>
+                            coords<span class="token punctuation">.</span>append<span class="token punctuation">(</span><span class="token punctuation">[</span>x<span class="token operator">+</span>top<span class="token punctuation">,</span> y<span class="token operator">+</span>left<span class="token punctuation">]</span><span class="token punctuation">)</span>  <span class="token comment"># 计算全局坐标</span>
+                            values<span class="token punctuation">.</span>append<span class="token punctuation">(</span>region<span class="token punctuation">[</span>x<span class="token punctuation">,</span> y<span class="token punctuation">]</span><span class="token punctuation">)</span>
+
+                coords <span class="token operator">=</span> np<span class="token punctuation">.</span>array<span class="token punctuation">(</span>coords<span class="token punctuation">)</span>
+                values <span class="token operator">=</span> np<span class="token punctuation">.</span>array<span class="token punctuation">(</span>values<span class="token punctuation">)</span>
+
+                <span class="token comment"># 训练线性回归模型</span>
+                model<span class="token punctuation">.</span>fit<span class="token punctuation">(</span>coords<span class="token punctuation">,</span> values<span class="token punctuation">)</span>
+
+                <span class="token comment"># 预测当前噪声点的像素值</span>
+                predicted_value <span class="token operator">=</span> model<span class="token punctuation">.</span>predict<span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token punctuation">[</span>i<span class="token punctuation">,</span> j<span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span>
+
+                <span class="token comment">#predicted_value = np.clip(predicted_value, 0, 1)</span>
+                <span class="token keyword keyword-if">if</span> predicted_value <span class="token operator">&gt;</span> <span class="token number">1</span><span class="token punctuation">:</span>
+                    predicted_value <span class="token operator">=</span> <span class="token number">1</span>
+                <span class="token keyword keyword-if">if</span> predicted_value <span class="token operator">&lt;</span> <span class="token number">0</span><span class="token punctuation">:</span>
+                    predicted_value <span class="token operator">=</span> <span class="token number">0</span>
+
+                <span class="token comment"># 恢复噪声点</span>
+                res_img<span class="token punctuation">[</span>i<span class="token punctuation">,</span> j<span class="token punctuation">,</span> c<span class="token punctuation">]</span> <span class="token operator">=</span> predicted_value
+</code></pre></li>
+</ul>
+<h3 id="四-实验结果与分析">四、实验结果与分析 </h3>
+<ul>
+<li><strong>均值滤波：</strong></li>
+</ul>
+<div align="center">
+<p align="center">均值滤波结果</p>
+<img src="image.png" width="40%">
+</div>
+<ul>
+<li><strong>中值滤波：</strong></li>
+</ul>
+<div align="center">
+<p align="center">中值滤波结果</p>
+<img src="image-2.png" width="40%">
+</div>
+<ul>
+<li><strong>线性回归：</strong></li>
+</ul>
+<div align="center">
+<p align="center">线性回归结果</p>
+<img src="image-1.png" width="40%">
+</div>
+<p><strong>三种算法对比</strong>：均值滤波计算较为简便，但对于边缘的保留效果较差；中值滤波可有效去除脉冲噪声，对于边缘像素的保留效果也较好，但计算复杂度稍高，且在密集噪声或大窗口下，可能误删细小纹理；线性回归算法采用拟合的方法，可以使恢复的像素值更加平滑且保留细小纹理效果较好，但计算复杂度较高。</p>
+<p>从上述结果可以看出，三种图像恢复的效果都很好，SSIM相似度都达到了0.86以上，cosine相似度达到了0.98以上。但是线性回归的精度略高，这是因为线性回归算法可以更好地拟合噪声点的像素值，从而更好地恢复图像。</p>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
